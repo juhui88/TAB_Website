@@ -1,4 +1,5 @@
 import './App.css';
+import TabRecruit from './components/TabRecruit';
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
         TAB
       </div>
 
-      <div className="mx-auto bg-red-300 md:w-3/5 p-7">
-        
+      <div className="mx-auto bg-red-300 w-full lg:w-[1024px] p-7">
+        <TabRecruit/>
         <div className='text-xl font-normal'>TAB 41기 신입부원 모집!  </div>
         <div className='text-xl font-bold'>TAB 41기 신입부원 모집!  </div>
         <div className='text-xl font-extrabold'>TAB 41기 신입부원 모집!  </div>
