@@ -13,9 +13,9 @@ export default function Bar() {
             
         </div>
         
-        <div className="fixed bottom-0 w-full space-y-4 z-10">
+        <div className="fixed bottom-0 w-full space-y-2  sm:space-y-4 z-10">
             <div className="cursor-pointer flex justify-center">
-                <div className="bg-[#865DFF] py-3 rounded-3xl text-center hover:bg-white group w-[1024px] shadow-xl ">
+                <div className="bg-[#865DFF] py-3 rounded-2xl text-center hover:bg-white group w-4/5 lg:w-[1024px] shadow-xl ">
                     <span className="text-white font-bold group-hover:text-[#865DFF]">지원하러 가기!</span>
                 </div>
                 
