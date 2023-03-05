@@ -9,18 +9,17 @@ import WithTab from "./components/WithTab";
 import Target from "./components/Target";
 import Schedule from "./components/Schedule";
 import FAQ from "./components/FAQ";
+import Bar from './components/Bar';
+import Header from './components/Header';
+
 
 function App() {
   return (
     <div>
-      <div className="bg-[#865DFF] flex flex-col items-center justify-center py-3">
-        <img src="TAB_logo_textWhite.png" className="h-52" />
-        <div className="bg-[#E384FF] rounded-xl p-2 px-3">
-          <span className="text-white font-extrabold  ">
-            Recruitment of new members for the 41st TAB
-          </span>
-        </div>
-      </div>
+
+
+      <Header/>
+
 
       <div className="mx-auto  w-full lg:w-[1024px] p-7 space-y-20 ">
         <TabRecruit />
@@ -30,10 +29,12 @@ function App() {
         <Achievement />
         <TabPhoto />
         <ClubRoom />
+
         <Target />
         <Schedule />
         <FAQ />
-      </div>
+      </div>  
+      <Bar/>
     </div>
   );
 }

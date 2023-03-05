@@ -1,7 +1,7 @@
 export default function Achievement() {
     return(<div>
         <span className="text-3xl font-extrabold">이루어온 것들✨</span>
-        <div className="bg-[#F3F3F3] p-10 sm:px-20 mt-10 rounded-2xl">
+        <div className="bg-[#F3F3F3] p-10 sm:px-20 mt-10 rounded-3xl">
             <ul className="list-disc font-bold">
                 <li>너디너리 제 2회 해커톤 1등 수상</li>
                 <li>2022 고려대학교 해커톤 2등(쿼드마이너상) 수상</li>
