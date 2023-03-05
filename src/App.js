@@ -1,4 +1,5 @@
 import './App.css';
+import TabCommunity from './components/TabCommunity';
 import TabRecruit from './components/TabRecruit';
 import WithTab from './components/WithTab';
 
@@ -17,6 +18,7 @@ function App() {
       <div className="mx-auto  w-full lg:w-[1024px] p-7 space-y-20 ">
         <TabRecruit/>
         <WithTab/>
+        <TabCommunity/>
       </div>  
     </div>
     
