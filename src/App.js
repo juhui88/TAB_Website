@@ -6,6 +6,7 @@ import TabRecruit from './components/TabRecruit';
 import TabPhoto from "./components/TabPhoto";
 import ClubRoom from "./components/ClubRoom";
 import WithTab from './components/WithTab';
+import Bar from './components/Bar';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <TabPhoto />
         <ClubRoom />
       </div>  
-
+      <Bar/>
     </div>
   );
 }
