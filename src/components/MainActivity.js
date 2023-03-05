@@ -11,7 +11,7 @@ const ItemText = tw.div`
     flex
     flex-col
     space-y-4
-    rounded-2xl
+    rounded-3xl
     flex-1
 `
 const ItemDetail = tw.span`

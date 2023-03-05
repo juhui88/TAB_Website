@@ -70,7 +70,7 @@ export default function TabRecruit(){
         <div className="mt-20 mb-5">
             <span className="text-2xl font-extrabold">위에 해당하는 컴퓨터공학부 학생이라면 주목📢</span>
         </div>
-        <div className="grid bg-[#F3F3F3] rounded-xl p-3">
+        <div className="grid bg-[#F3F3F3] rounded-3xl p-3">
             <span className="mb-3">
             📌  TAB은 어떤 곳인가요?
             </span>
