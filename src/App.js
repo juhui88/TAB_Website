@@ -8,7 +8,7 @@ function App() {
         TAB
       </div>
 
-      <div className="mx-auto  w-full lg:w-[1024px] p-7">
+      <div className="mx-auto  w-full lg:w-[1024px] p-7 px-20">
         <TabRecruit/>
       </div>  
     </div>
