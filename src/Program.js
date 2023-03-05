@@ -1,5 +1,7 @@
+import { Link, Route, Routes } from "react-router-dom";
 import Bar from "./components/Bar";
 import Header from "./components/Header";
+import ProgramDetail from "./ProgramDetail";
 import ProgramItem from "./components/program/ProgramItem";
 
 export default function Program() {
@@ -13,7 +15,11 @@ export default function Program() {
                 다양한 스터디, 세미나가 준비되어있습니다.
             </div>
             <div className="grid grid-cols-2 gap-12 pb-40">
-                {[1,2,3,4,5,6,7,8].map(i=><ProgramItem imgSrc = {"flutter.svg"} title = {"💙 ️flutter session - flutter로 인스타그램 만들기"}/>)}
+                {[1,2,3,4,5,6,7,8].map(i=>
+                <Link to = "1">
+                    <ProgramItem imgSrc = {"flutter.svg"} title = {"💙 ️flutter session - flutter로 인스타그램 만들기"}/>
+                </Link>
+                )}
                 
             </div>
         </div>
