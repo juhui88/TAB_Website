@@ -21,16 +21,17 @@ function TabPhoto() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <img className="rounded-3xl" src="엠티.jpg"></img>
+          <img className="rounded-3xl" src="TabAlbum/2022여름엠티.jpg"></img>
+          
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl" src="엠티.jpg"></img>
+          <img className="rounded-3xl" src="TabAlbum/엠티.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl" src="엠티.jpg"></img>
+          <img className="rounded-3xl" src="TabAlbum/엠티.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl" src="엠티.jpg"></img>
+          <img className="rounded-3xl" src="TabAlbum/엠티.jpg"></img>
         </SwiperSlide>
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	 p-5 mt-5">
