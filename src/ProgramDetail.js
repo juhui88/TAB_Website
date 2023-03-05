@@ -37,7 +37,7 @@ export default function ProgramDetail() {
 
             <div className="mx-auto  w-full lg:w-[1024px] p-7 ">
                 <span className="text-3xl font-extrabold">flutter session - flutter로 인스타그램 만들기</span>
-                <img src ={Img} className="rounded-3xl w-full mb-5"/>
+                <img src ={Img} className="rounded-3xl w-full my-5"/>
                 <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5">💙 ️최근 많은 관심을 받는 flutter! 인스타그램 뷰를 만들어보면서 같이 찍먹해볼래? </div>
                 <div className=" space-y-10">
                     <Item className="flex flex-col">
@@ -77,21 +77,21 @@ export default function ProgramDetail() {
                     <Item>
                         <ItemTitle>✨ 활동사진</ItemTitle>
                         <Swiper
-                            className="mt-5 w-full"
+                            className="mt-5 w-full h-96 bg-[#F3F3F3] rounded-3xl"
                             modules={[Navigation]}
                             spaceBetween={50}
                             slidesPerView={1}
                             navigation
                             onSwiper={(swiper) => console.log(swiper)}
                         >
-                            <SwiperSlide>
-                                <img src = {activity} className="rounded-3xl "/>
+                            <SwiperSlide className="" >
+                                <img src = {activity} className="h-96 object-contain"/>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <img src = {activity} className="rounded-3xl"/>
+                            <SwiperSlide className="">
+                                <img src = {activity} className="h-96 object-contain"/>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <img src = {activity} className="rounded-3xl"/>
+                            <SwiperSlide className="">
+                                <img src = {activity} className="h-96 object-contain"/>
                             </SwiperSlide>
                         </Swiper>
                     </Item>
