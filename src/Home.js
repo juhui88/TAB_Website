@@ -1,8 +1,7 @@
-
 import Achievement from "./components/Achievement";
 import MainaAtivity from "./components/MainActivity";
 import TabCommunity from "./components/TabCommunity";
-import TabRecruit from "./components/TabRecruit";
+import TabRecruit from "./components/tabRecruit";
 
 import TabPhoto from "./components/TabPhoto";
 import ClubRoom from "./components/ClubRoom";
@@ -11,9 +10,8 @@ import Target from "./components/Target";
 import Schedule from "./components/Schedule";
 import FAQ from "./components/FAQ";
 
-import Bar from './components/Bar';
-import Header from './components/Header';
-
+import Bar from "./components/Bar";
+import Header from "./components/Header";
 
 function Home() {
   return (
@@ -34,7 +32,6 @@ function Home() {
         <FAQ />
       </div>
       <Bar />
-
     </div>
   );
 }
