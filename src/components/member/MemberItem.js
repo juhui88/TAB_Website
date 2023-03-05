@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function MemberItem({
   name,
   generation,
@@ -8,17 +10,8 @@ export default function MemberItem({
   image,
 }) {
   return (
-<<<<<<< Updated upstream
-    <div className="shadow-xl rounded-b-3xl ">
-      <div>
-        <img src={image} className="rounded-t-3xl" />
-      </div>
-      <div className="p-2 rounded-b-3xl">
-        <span>{name}</span>
-      </div>
-    </div>
-=======
-    <Link to={`https://github.com/${github}`}>
+
+    <Link to = {`https://github.com/${github}`}>
       <div className="shadow-xl rounded-b-3xl">
         <div>
           <img src={image} className="rounded-t-3xl" />
@@ -34,6 +27,7 @@ export default function MemberItem({
         </div>
       </div>
     </Link>
->>>>>>> Stashed changes
+
+
   );
 }
