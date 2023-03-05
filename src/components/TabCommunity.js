@@ -3,7 +3,7 @@ export default function TabCommunity(){
         <span className="text-2xl font-extrabold ">TAB만의 커뮤니티가 존재한다고?</span>
         <div className="bg-[#F3F3F3] rounded-2xl p-10 mt-2 space-y-10 sm:space-y-5  ">
             <div className="sm:flex sm:space-x-5">
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                     <span className="text-center font-bold">TAB Discord</span>
                     <img className="rounded-2xl w-96" src="Discord.svg"/>
                 </div>
@@ -22,7 +22,7 @@ export default function TabCommunity(){
                         자유로운 정보공유도 환영입니다 👍
                     </div>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center">
                     <span className="text-center font-bold">TAB 카카오톡 채팅방</span>
                     <img className="rounded-2xl w-96" src="KaKaoTalk.svg"/>
                 </div>

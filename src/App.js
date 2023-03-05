@@ -1,4 +1,5 @@
 import './App.css';
+import MainaAtivity from './components/MainActivity';
 import TabCommunity from './components/TabCommunity';
 import TabRecruit from './components/TabRecruit';
 import WithTab from './components/WithTab';
@@ -19,6 +20,7 @@ function App() {
         <TabRecruit/>
         <WithTab/>
         <TabCommunity/>
+        <MainaAtivity/>
       </div>  
     </div>
     
