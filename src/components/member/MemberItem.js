@@ -10,8 +10,7 @@ export default function MemberItem({
   image,
 }) {
   return (
-
-    <Link to = {`https://github.com/${github}`}>
+    <Link to={`https://github.com/${github}`}>
       <div className="shadow-xl rounded-b-3xl">
         <div>
           <img src={image} className="rounded-t-3xl" />
@@ -27,7 +26,5 @@ export default function MemberItem({
         </div>
       </div>
     </Link>
-
-
   );
 }
