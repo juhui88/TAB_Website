@@ -14,7 +14,7 @@ function App() {
           </div>
       </div>
 
-      <div className="mx-auto  w-full lg:w-[1024px] p-7 ">
+      <div className="mx-auto  w-full lg:w-[1024px] p-7 space-y-20 ">
         <TabRecruit/>
         <WithTab/>
       </div>  

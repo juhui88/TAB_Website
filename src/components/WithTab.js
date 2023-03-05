@@ -9,7 +9,7 @@ const ItemTitle = tw.span`
     font-bold
 `
 export default function WithTab() {
-    return(<div className="my-16">
+    return(<div className="">
         <span className="text-2xl font-extrabold">
             TAB과 함께
         </span>
