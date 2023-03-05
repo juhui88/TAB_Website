@@ -2,7 +2,7 @@
 import Achievement from "./components/Achievement";
 import MainaAtivity from "./components/MainActivity";
 import TabCommunity from "./components/TabCommunity";
-import TabRecruit from "./components/tabRecruit";
+import TabRecruit from "./components/TabRecruit";
 
 import TabPhoto from "./components/TabPhoto";
 import ClubRoom from "./components/ClubRoom";
