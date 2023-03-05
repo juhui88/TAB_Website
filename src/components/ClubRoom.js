@@ -21,16 +21,16 @@ function ClubRoom() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <img src="학회방.png"></img>
+          <img className="rounded-3xl" src="학회방.png"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="학회방.png"></img>
+          <img className="rounded-3xl" src="학회방.png"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="학회방.png"></img>
+          <img className="rounded-3xl" src="학회방.png"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="학회방.png"></img>
+          <img className="rounded-3xl" src="학회방.png"></img>
         </SwiperSlide>
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	 p-5 mt-5">
