@@ -18,7 +18,7 @@ export default function Program() {
             <div className="grid grid-cols-2 gap-12 pb-40">
                 {data.map((d,i)=>
                 <Link to = {`${i}`}>
-                    <ProgramItem imgSrc = {d.img}title = {d.title}/>
+                    <ProgramItem imgSrc = {d.imgSrc[0]} title = {d.title}/>
                 </Link>
                 )}
                 
