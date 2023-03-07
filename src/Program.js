@@ -16,9 +16,9 @@ export default function Program() {
                 다양한 스터디, 세미나가 준비되어있습니다.
             </div>
             <div className="grid grid-cols-2 gap-12 pb-40">
-                {data.map(i=>
-                <Link to = "1">
-                    <ProgramItem imgSrc = {"flutter.svg"} title = {i.title}/>
+                {data.map((d,i)=>
+                <Link to = {`${i}`}>
+                    <ProgramItem imgSrc = {d.imgSrc[0]}title = {d.title}/>
                 </Link>
                 )}
                 
