@@ -31,7 +31,7 @@ function ClubRoom() {
           <img className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_문패.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl object-contain h-96" src="학회방.png"></img>
+          <img className="rounded-3xl object-contain h-96" src="ClubRoom/room3.jpg"></img>
         </SwiperSlide>
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	 p-5 mt-5">

@@ -15,7 +15,7 @@ export default function Program() {
                 TAB에서 선후배/동기들과 함께 공부하고 성장해보세요. <br/>
                 다양한 스터디, 세미나가 준비되어있습니다.
             </div>
-            <div className="grid grid-cols-2 gap-12 pb-40">
+            <div className="grid md:grid-cols-2 gap-12 pb-40">
                 {data.map((d,i)=>
                 <Link to = {`${i}`}>
                     <ProgramItem imgSrc = {d.imgSrc[0]} title = {d.title}/>
