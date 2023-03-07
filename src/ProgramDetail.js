@@ -67,7 +67,7 @@ export default function ProgramDetail() {
                             navigation
                             onSwiper={(swiper) => console.log(swiper)}
                         >
-                            {data.imgSrc.map(i=><SwiperSlide><img src = {i} className="h-96 object-contain"/></SwiperSlide>)}
+                       {data.imgSrc.map(i=><SwiperSlide><img src = {i} className="h-96 object-contain"/></SwiperSlide>)}
                         </Swiper>
                     </Item>
                 </div>

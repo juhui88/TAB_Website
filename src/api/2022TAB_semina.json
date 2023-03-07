@@ -19,7 +19,12 @@
   "content": "시간 : 매주 목요일 5:30 ~ ,약 30분 진행(온\/오프라인)\n장소 : TAB 학회방\n\n생활코딩, 노마드코더의 온라인강의를 듣고 학습하고, 공부한 부분에 대해서 개발 블로그에 정리 \/ 스터디 시간에 발표하는 시간을 가집니다.\n매주 배운 내용을 응용해서 과제를 수행합니다.\n\n✏️스터디 내용\nHTML & Internet\nCSS\nJavascript\nReact\nReactJS로 영화 웹 서비스 만들기\n",
   "imgSrc":[
     "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_1.png?alt=media&token=b2f14ffa-6ab2-4be7-86f8-6518e1eec6da",
-    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_2.png?alt=media&token=738651b3-418e-4be3-887b-0f2c618ef6f4"
+    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_2.png?alt=media&token=738651b3-418e-4be3-887b-0f2c618ef6f4",
+    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_3.jpg?alt=media&token=7440a89d-db02-45f5-bedd-04c361d08a4b",
+    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_4.jpg?alt=media&token=daa4a4a6-4455-4ea8-9d5a-beb5c204164b",
+    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_4.png?alt=media&token=fd8b68b9-77b4-4016-ac1b-cec4d59121d2",
+    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_5.png?alt=media&token=2fb60d91-da12-4815-926f-91b191cef9ab",
+    "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/fe_6.png?alt=media&token=fcdd3b8c-af1f-4a9b-8212-d270f227ced6"
   ]
  },
  {
@@ -68,5 +73,41 @@
     "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/f_1.svg?alt=media&token=f8203385-b9f4-45d1-a051-604c19626aa1",
     "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/f_2.svg?alt=media&token=2ba072a4-8d4a-4c3b-aa42-899920bd90fa"
   ]
+ }
+ ,{
+    "title" : "Python을 이용해서 Backend 찍먹해보기",
+    "intro" : "Python을 이용한 웹 서비스 정복기",
+    "goal" : "Python 기반의 Web Framework인 Django를 이용하여 웹 서비스 제작",
+    "period" : "2022/08/03 ~ 2022/11/30",
+    "content": "Python 워밍업\nDjango 공식문서 튜토리얼 진행\nJump to Django 튜토리얼 진행\n초성 궁합 계산 서비스 제작",
+    "imgSrc" : [
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_1.png?alt=media&token=81bd4bca-276d-4d9e-84a2-64ed3f1ec482",
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_2.png?alt=media&token=d69cd9f2-8ddc-4ee6-827e-94b896155120",
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_3.png?alt=media&token=52762773-72ee-4de0-a86a-94e21c1a2cd5",
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_4.png?alt=media&token=261f0f93-1903-4b95-89b2-28d873f2ba4c",
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_5.png?alt=media&token=1d596c03-ee76-4b8f-8246-3ab29dc4fb1e",
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_6.png?alt=media&token=01af54f6-4e8e-41ac-bfb7-dafa532f6e7e",
+        "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/be_7.png?alt=media&token=3f74b4a4-262d-41e9-84e1-193b66c1350b"
+    ]
+ }
+ ,{
+    "title" : "TAB 시험기간 집중 스터디",
+    "intro" : "시험기간 2주전 집중해서 공부를 할 수 있는 시간을 가져봅시다🔥",
+    "goal" : "같은 수업을 듣고 있는 학우분들과 모르는 문제에 대해서 같이 고민도 해보고 각자 공부도 하면서 서로에게도, 개인에게도 도움을 주고 받는 시간이 되면 좋겠습니다🙌",
+    "period" : "2022.04.12, 19 (이틀간)",
+    "content" :"4.12 & 4.19 화요일 이틀간 19시부터 2시간 동안 진행합니다.\n스터디는 인원수에 따라 게더타운이이나 디스코드 둘 중 하나의 형태로 진행될 예정입니다!\n시험기간에 하는 스터디인 만큼 자율적인 활동입니다. 강제적인 활동이 아니기 때문에 참여하시고 싶은 분들만 참여해주시면 됩니다.",
+    "imgSrc" : [
+        ""
+    ]
+ },
+ {
+    "title" : "TAB 40기 OT",
+    "intro": "TAB 40기 신입생들을 대상으로 첫 OT를 진행합니다.",
+    "goal": " TAB 활동 방향에 대해서 소개하고 추천 콘텐츠를 공유",
+    "period" : "2022.03",
+    "content" : "신입부원 OT 및 코딩 문제 사이트 / 코딩 유튜브 채널 / 강의 사이트 추천을 진행",
+    "imgSrc" : [
+        ""
+    ]
  }
 ]
