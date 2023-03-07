@@ -13,7 +13,7 @@ function ClubRoom() {
     <div>
       <span className="text-2xl font-extrabold">모여봐요 TAB 학회방 🏠</span>
       <Swiper
-        className="mt-5"
+        className="mt-5 bg-[#F3F3F3] rounded-3xl"
         modules={[Navigation]}
         spaceBetween={50}
         slidesPerView={1}
@@ -21,16 +21,17 @@ function ClubRoom() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <img className="rounded-3xl" src="학회방.png"></img>
+          <img className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_불빛.gif"></img>
+          
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl" src="학회방.png"></img>
+          <img className="rounded-3xl object-contain h-96" src="ClubRoom/room2.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl" src="학회방.png"></img>
+          <img className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_문패.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl" src="학회방.png"></img>
+          <img className="rounded-3xl object-contain h-96" src="학회방.png"></img>
         </SwiperSlide>
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	 p-5 mt-5">
