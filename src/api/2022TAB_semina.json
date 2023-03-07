@@ -1,0 +1,43 @@
+[
+ {
+  "title": "🧑‍🎤 VampireSurvivors 따라잡기(유니티의 기초 공부하기)",
+  "intro": "VampireSurvivors의 기능들을 따라 만들어보며 유니티 공부하기",
+  "goal": "게임 개발 경험 및 유니티2d와 C#의 기초 공부",
+  "period": "22\/8\/6 ~ 22\/11\/29",
+  "content": "시간 : 매주 화요일 5:30 ~ ,약 50분 진행(온\/오프라인)\n장소 : 백년관 스터디룸\n내용 : 저번 과제 피드백, 함수 설명 및 다음 과제 안내"
+ },
+ {
+  "title": "⚛️ 웹 기초부터 React 찍먹까지",
+  "intro": "HTML, CSS, JS 기초에 대해서 공부하고, 간단한 프로젝트까지 개발해보는 스터디",
+  "goal": "HTML, CSS, JS를 완벽하게 학습하고 웹 부수기 + React 경험해보기",
+  "period": "22.08.09 ~ 22.11.27",
+  "content": "시간 : 매주 목요일 5:30 ~ ,약 30분 진행(온\/오프라인)\n장소 : TAB 학회방\n\n생활코딩, 노마드코더의 온라인강의를 듣고 학습하고, 공부한 부분에 대해서 개발 블로그에 정리 \/ 스터디 시간에 발표하는 시간을 가집니다.\n매주 배운 내용을 응용해서 과제를 수행합니다.\n\n✏️스터디 내용\nHTML & Internet\nCSS\nJavascript\nReact\nReactJS로 영화 웹 서비스 만들기\n"
+ },
+ {
+  "title": "🕮 인공지능 정복하기",
+  "intro": "머신러닝 & 딥러닝에 대해 공부 후, TensorFlow로 프로젝트 진행",
+  "goal": "인공지능과 친해지고 찐친되기!",
+  "period": " 2022\/08\/11 ~ 2022\/11\/30 ",
+  "content": "시간 : 매주 수 or 금요일 1:30 ~ ,약 60분 진행(온\/오프라인)\n장소 : TAB 학회방\n\n스터디 내용 : \n기본적인 Machine Learning 의 용어와 개념\nTensorFlow 설치방법 및 기본적인 operations\nLinear Regression\nmulti-variable linear regression\nLogistic Classification\nSoftmax classifier\nlearning rate, Overfitting, Regularization\nTraining\/Testing data set\n딥러닝의 기본 개념: 시작과 XOR 문제, Back-propagation\nReLU\nDropout과 앙상블\nConvNet\n RNN \n\n        \n22-2학기 HUFS H-UP 4기 우수상(3등) : 김은비, 신수민"
+ },
+ {
+  "title": "📱 TAB(Team Android Basic)",
+  "intro": "안드로이드 앱 개발에 관한 기초를 학습 후 실전에 옮길 수 있는 간단한 코드들을 적용해보며 안드로이드 스튜디오 사용법 익히기",
+  "goal": "안드로이드 스튜디오의 다양한 툴 사용법을 익히고 활용하기\n협업과정에서 필수적인 깃허브와 소스트리 사용에 대한 학습 및 체화\n",
+  "period": "2022.08.02 - 2022.11.30",
+  "content": "대면장소: 격주 월요일 오후 6시 TAB 학회방, 썸카페\n\n스터디 내용 - 비대면\n구름 무료 강의를 수강하며 진도에 따른 학습과정 보고 및 피드백\n구글 미트를 통해 화상 스터디를 진행하며 학습 내용 피드백\n\n스터디 내용 - 대면\n-깃허브와 소스트리를 이용한 협업 기반 마련\n-앱 개발 주제 브레인스토밍(앱에 필수적인 기능 네 가지 정도를 고안)\n-기능 구현에 대한 가능성 검토 및 개발 업무 분담\n-구현기능을 각자 맡아 구현 착수 (대면 스터디때 중간보고)\n-구현된 기능 정리 및 중간보고 피드백\n-수정사항 및 버그 점검\n"
+ },
+ {
+  "title": "🧑‍💻 MacBook Owners (iOS)",
+  "intro": " iOS App을 만들 수 있는 기초부터 Application 제작까지\r",
+  "goal": "Swift의 기본 문법을 학습함, Xcode의 이용 방법을 학습함, 학습한 내용을 토대로 Application을 제작함.",
+  "period": "2022학년 여름방학 ~ 2022학년 2학기"
+ },
+ {
+  "title": "🤍 flutter session - flutter로 인스타그램 만들기",
+  "intro": "최근 많은 관심을 받는 flutter! 인스타그램 뷰를 만들어보면서 같이 찍먹해볼래?",
+  "goal": "Flutter가 무엇인지 알아보고, 기초를 공부해보자",
+  "period": "2022.05.10 ~ ",
+  "content": "플러터 세션은 google meet을 통해 온라인으로 진행되었습니다.\n공부한 내용은 다음과 같습니다.\n\nFlutter의 UI\nFlutter 위젯 생성 및 위젯 데이터 변경 적용\nStatelessWidget\nStatefulWidget , State\n라우터\n\n기초 개념을 배우고 인스타그램 뷰를 예시로 페이지를 구현해보았어요!\n구현한 페이지는 Discord에 제출하고 서로 피드백을하는 시간을 가졌습니다."
+ }
+]

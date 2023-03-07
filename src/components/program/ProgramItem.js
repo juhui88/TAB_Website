@@ -4,7 +4,7 @@ export default function ProgramItem({imgSrc,title}){
             <div>
                 <img src={imgSrc} className="rounded-t-3xl"/>
             </div>
-            <div className="p-2 rounded-b-3xl">
+            <div className="p-2 rounded-b-3xl pl-4">
                 <span>
                     {title}
                 </span>
