@@ -4,11 +4,16 @@ import ProgramDetail from "./ProgramDetail";
 import Home from './Home';
 import Member from "./Member";
 import Program from "./Program";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 
 function App() {
   return (
     <div>
+      <HelmetProvider>
+        <Helmet>
+          <title>TAB</title>
+        </Helmet>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -16,7 +21,9 @@ function App() {
         <Route path="/member" element={<Member/>}/>
         <Route path="/program/:programId" element={<ProgramDetail/>}/>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter>  
+      </HelmetProvider>
+      
     </div>
   );
 }

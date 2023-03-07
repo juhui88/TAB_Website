@@ -3,13 +3,14 @@ import Header from "./components/Header";
 import tw from "tailwind-styled-components"
 import Img from "./programImg/flutter.svg"
 import logo from "./programImg/TAB_logo_textWhite.png";
-import activity from "./programImg/flutterActivity.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Navigation } from "swiper";
+import json from "./api/2022TAB_semina.json"
+import { useParams } from "react-router-dom";
 
 const Item = tw.div`
     flex
@@ -24,6 +25,8 @@ const ItemDetail = tw.span`
     ml-5
 `
 export default function ProgramDetail() {
+    const {programId} = useParams();
+    const data = json[programId]
     return(
         <div>
             <div className='bg-[#865DFF] flex flex-col items-center justify-center py-3'>
@@ -36,42 +39,22 @@ export default function ProgramDetail() {
             </div>
 
             <div className="mx-auto  w-full lg:w-[1024px] p-7 ">
-                <span className="text-3xl font-extrabold">flutter session - flutter로 인스타그램 만들기</span>
-                <img src ={Img} className="rounded-3xl w-full my-5"/>
-                <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5">💙 ️최근 많은 관심을 받는 flutter! 인스타그램 뷰를 만들어보면서 같이 찍먹해볼래? </div>
+                <span className="text-3xl font-extrabold">{data.title}</span>
+                <img src ={data.imgSrc[0]} className="rounded-3xl w-full my-5"/>
+                <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5">{data.intro}</div>
                 <div className=" space-y-10">
                     <Item className="flex flex-col">
                         <ItemTitle>🚩 목표</ItemTitle>
-                        <ItemDetail >Flutter가 무엇인지 알아보고, 기초를 공부해보자</ItemDetail>
+                        <ItemDetail >{data.goal}</ItemDetail>
                     </Item>
                     <Item>
                         <ItemTitle>🗓️ 활동기간</ItemTitle>
-                        <ItemDetail>2022.05.10 ~ </ItemDetail>
+                        <ItemDetail>{data.period}</ItemDetail>
                     </Item>
                     <Item>
                         <ItemTitle>👩‍💻 활동내용</ItemTitle>
                         <div className="ml-5">
-                            플러터 세션은 google meet을 통해 온라인으로 진행되었습니다.<br/>
-                            공부한 내용은 다음과 같습니다.
-                            <ul className="list-decimal py-7 ml-6">
-                                <li>
-                                    Flutter의 UI
-                                </li>
-                                <li>
-                                    Flutter 위젯 생성 및 위젯 데이터 변경 적용
-                                </li>
-                                <li>
-                                    StatelessWidget
-                                </li>
-                                <li>
-                                    StatefulWidget , State
-                                </li>
-                                <li>
-                                    라우터
-                                </li>
-                            </ul>
-                            기초 개념을 배우고 인스타그램 뷰를 예시로 페이지를 구현해보았어요!<br/>
-                            구현한 페이지는 Discord에 제출하고 서로 피드백을하는 시간을 가졌습니다.
+                            {data.content.split("\n").map(i=><span>{i}<br/></span>)}
                         </div>
                     </Item>
                     <Item>
@@ -84,15 +67,7 @@ export default function ProgramDetail() {
                             navigation
                             onSwiper={(swiper) => console.log(swiper)}
                         >
-                            <SwiperSlide className="" >
-                                <img src = {activity} className="h-96 object-contain"/>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <img src = {activity} className="h-96 object-contain"/>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <img src = {activity} className="h-96 object-contain"/>
-                            </SwiperSlide>
+                       {data.imgSrc.map(i=><SwiperSlide><img src = {i} className="h-96 object-contain"/></SwiperSlide>)}
                         </Swiper>
                     </Item>
                 </div>
