@@ -1,16 +1,14 @@
-import Bar from "./components/Bar";
-import Header from "./components/Header";
+import Bar from "../components/Bar";
 import tw from "tailwind-styled-components"
-import Img from "./programImg/flutter.svg"
-import logo from "./programImg/TAB_logo_textWhite.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Navigation } from "swiper";
-import json from "./api/2022TAB_semina.json"
+import json from "../api/2022TAB_semina.json"
 import { useParams } from "react-router-dom";
+import Header from "../components/Header";
 
 const Item = tw.div`
     flex
@@ -29,14 +27,7 @@ export default function ProgramDetail() {
     const data = json[programId]
     return(
         <div>
-            <div className='bg-[#865DFF] flex flex-col items-center justify-center py-3'>
-                <img src={logo} className='h-52'/>
-                <div className='bg-[#E384FF] rounded-3xl p-2 px-3'>
-                    <span className='text-white font-extrabold  '>
-                        Recruitment of new members for the 41st TAB
-                    </span>
-                </div>
-            </div>
+            <Header/>
 
             <div className="mx-auto  w-full lg:w-[1024px] p-7 ">
                 <span className="text-3xl font-extrabold">{data.title}</span>
