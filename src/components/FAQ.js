@@ -1,6 +1,7 @@
 import tw from "tailwind-styled-components";
 import styled from "styled-components";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const P = tw.p`
 ml-5
@@ -13,8 +14,10 @@ function FAQ() {
     <div>
       <p className="text-2xl font-extrabold">자주 묻는 질문</p>
       <p className="text-base font-normal mt-3">
-        궁금하신 점이 있다면 아래의 오픈 카톡으로 문의내용 남겨주시면
-        답변해드리겠습니다.
+        궁금하신 점이 있다면 아래의 연락처 혹은 오픈카톡으로 문의내용 남겨주시면
+        답변해드리겠습니다.<br/><br/>
+        <Link href="https://open.kakao.com/o/gGMDYa8e" className="hover:text-yellow-400">https://open.kakao.com/o/gGMDYa8e</Link><br/>
+        회장 김이안 010 - 3158 - 0553
       </p>
       <div className="mt-10 space-y-5">
         <details>
@@ -53,6 +56,9 @@ function FAQ() {
           <summary>면접은 어떻게 준비해야하나요? </summary>
           <P> 면접은 일방적으로 지원자가 평가받는 자리가 아니라 면접관과 지원자가 정해진 시간 안에 서로가 어떤 사람인지에대해 대화하는 방식의 면접이 진행될 예정입니다. 물론 코딩 경험이나 전공지식의 정도에 대해서 형식적으로 질문받긴 하겠지만 부담 가지실 필요는 없습니다. 지원자 여러분은 나는 어떤 사람이고 학회에서 어떤 활동들을 기대하는지, 어떤 마음으로 함께 활동할지 정도에 대해서만 생각해오셔도 충분합니다. 또한 여러분이 학회에 대해 궁금한 점이 있다면 면접 때 질문하셔도 좋습니다!  </P>
         </details>
+      </div>
+      <div>
+
       </div>
     </div>
   );
