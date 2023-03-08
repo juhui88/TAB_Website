@@ -1,9 +1,9 @@
 
-import Bar from "./components/Bar";
-import Header from "./components/Header";
-import MemberItem from "./components/member/MemberItem";
+import Bar from "../components/Bar";
+import Header from "../components/Header";
+import MemberItem from "../components/member/MemberItem";
 
-import data from "./api/TAB_member_information.json"
+import data from "../api/TAB_member_information.json"
 
 
 export default function Member() {

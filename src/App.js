@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import ProgramDetail from "./ProgramDetail";
+import ProgramDetail from "./route/ProgramDetail";
 import Home from './Home';
-import Member from "./Member";
-import Program from "./Program";
+import Member from "./route/Member";
+import Program from "./route/Program";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 

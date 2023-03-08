@@ -1,14 +1,13 @@
 import { Link, Route, Routes } from "react-router-dom";
-import Bar from "./components/Bar";
-import Header from "./components/Header";
-import ProgramDetail from "./ProgramDetail";
-import ProgramItem from "./components/program/ProgramItem";
-import data from "./api/2022TAB_semina.json";
+import data from "../api/2022TAB_semina.json";
+import Bar from "../components/Bar";
+import Header from "../components/Header";
+import ProgramItem from "../components/program/ProgramItem"
 
 export default function Program() {
   return (
     <div>
-      <Header />
+      <Header/>
       <div className="mx-auto  w-full lg:w-[1024px] p-7">
         <span className="text-3xl font-extrabold">
           지난 TAB의 활동들, 함께 보실까요?
