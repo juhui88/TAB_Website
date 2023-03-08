@@ -3,7 +3,7 @@
   "title": "🧑‍🎤 VampireSurvivors 따라잡기(유니티의 기초 공부하기)",
   "intro": "VampireSurvivors의 기능들을 따라 만들어보며 유니티 공부하기",
   "goal": "게임 개발 경험 및 유니티2d와 C#의 기초 공부",
-  "period": "22\/8\/6 ~ 22\/11\/29",
+  "period": "22.8.6 ~ 22.11.29",
   "content": "시간 : 매주 화요일 5:30 ~ ,약 50분 진행(온\/오프라인)\n장소 : 백년관 스터디룸\n내용 : 저번 과제 피드백, 함수 설명 및 다음 과제 안내",
   "imgSrc":[
     "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/u_1.png?alt=media&token=52308898-fc1f-4310-9a86-d04357dd7787",
@@ -31,8 +31,8 @@
   "title": "🤖 인공지능 정복하기",
   "intro": "머신러닝 & 딥러닝에 대해 공부 후, TensorFlow로 프로젝트 진행",
   "goal": "인공지능과 친해지고 찐친되기!",
-  "period": " 2022\/08\/11 ~ 2022\/11\/30 ",
-  "content": "시간 : 매주 수 or 금요일 1:30 ~ ,약 60분 진행(온\/오프라인)\n장소 : TAB 학회방\n\n스터디 내용 : \n기본적인 Machine Learning 의 용어와 개념\nTensorFlow 설치방법 및 기본적인 operations\nLinear Regression\nmulti-variable linear regression\nLogistic Classification\nSoftmax classifier\nlearning rate, Overfitting, Regularization\nTraining\/Testing data set\n딥러닝의 기본 개념: 시작과 XOR 문제, Back-propagation\nReLU\nDropout과 앙상블\nConvNet\n RNN \n\n        \n22-2학기 HUFS H-UP 4기 우수상(3등) : 김은비, 신수민",
+  "period": " 2022.08.11 ~ 2022.11.30 ",
+  "content": "시간 : 매주 수 or 금요일 1:30 ~ ,약 60분 진행(온/오프라인)\n장소 : TAB 학회방\n\n스터디 내용 : \n기본적인 Machine Learning 의 용어와 개념\nTensorFlow 설치방법 및 기본적인 operations\nLinear Regression\nmulti-variable linear regression\nLogistic Classification\nSoftmax classifier\nlearning rate, Overfitting, Regularization\nTraining\/Testing data set\n딥러닝의 기본 개념: 시작과 XOR 문제, Back-propagation\nReLU\nDropout과 앙상블\nConvNet\n RNN \n\n        \n22-2학기 HUFS H-UP 4기 우수상(3등) : 김은비, 신수민",
   "imgSrc":[
     "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/ml_1.png?alt=media&token=a05ddba9-e53c-41e5-814f-e747b19bd45d",
     "https://firebasestorage.googleapis.com/v0/b/tab-website-a3588.appspot.com/o/ml_2.png?alt=media&token=c8fbe1eb-de75-4a01-ad1d-490552cf0737",
