@@ -11,6 +11,8 @@ const Bubble = tw.li`
     text-white
     relative
     ml-4
+    text-xs
+    sm:text-base
 `;
 const TriangleLeft = styled.div`
   width: 0;
@@ -40,7 +42,7 @@ export default function TabRecruit() {
   return (
     <div className="overflow-hidden">
       <div className="pb-7">
-        <span className="text-3xl font-extrabold">TAB 41기 신입부원 모집!</span>
+        <span className="text-2xl sm:text-3xl font-extrabold">TAB 41기 신입부원 모집!</span>
       </div>
 
       <ul className="md:w-3/4">
@@ -72,13 +74,13 @@ export default function TabRecruit() {
         </Bubble>
       </ul>
       <div className="mt-20 mb-5">
-        <span className="text-2xl font-extrabold">
+        <span className="text-xl sm:text-2xl font-extrabold">
           위에 해당하는 컴퓨터공학부 학생이라면 주목📢
         </span>
       </div>
-      <div className="grid bg-[#F3F3F3] rounded-3xl p-3">
+      <div className="grid bg-[#F3F3F3] rounded-3xl p-3 text-xs sm:text-base">
         <span className="mb-3">📌 TAB은 어떤 곳인가요?</span>
-        <span className="ml-7">
+        <span className="ml-5 sm:ml-7">
           TAB은 키보드의 Tab키와 'Talk About Bug'의 약자로 '프로그래밍 개발 지식
           공유'라는 의미를 두고 있는 1982년에 설립된 컴퓨터공학부 소속
           학회입니다. <br />

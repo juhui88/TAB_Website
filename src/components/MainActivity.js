@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import tw from "tailwind-styled-components"
 
 const Item = tw.div`
@@ -7,12 +8,15 @@ const Item = tw.div`
 
 const ItemText = tw.div`
     bg-[#F3F3F3]
-    p-7
+    p-5
+    sm:p-7
     flex
     flex-col
     space-y-4
     rounded-3xl
     flex-1
+    text-xs
+    sm:text-base
 `
 const ItemDetail = tw.span`
     ml-6
@@ -20,7 +24,7 @@ const ItemDetail = tw.span`
 export default function MainaAtivity() {
     return (
         <div>
-            <span className="text-3xl font-extrabold">TAB 주요 활동</span>
+            <span className="text-xl sm:text-2xl font-extrabold">TAB 주요 활동</span>
             <div className="sm:grid sm:grid-cols-2 justify-items-center space-y-20 sm:space-y-0 sm:gap-10 ">
                 <Item className="flex flex-col">
                     <img className="px-20"  src="gif/Study.gif"/>
@@ -34,21 +38,21 @@ export default function MainaAtivity() {
                 <Item className="flex flex-col">
                     <img className="px-20" src="gif/Beer.gif"/>
                     <ItemText>
-                        <span>👥 올림픽공원 야유회</span>
+                        <span className="font-bold">👥 올림픽공원 야유회</span>
                         <ItemDetail>서울 올림픽 공원에서 졸업한 학회 선배님들과 함께 네트워킹 할 수 있는 야유회를 개최합니다.</ItemDetail>
                     </ItemText>
                 </Item>
                 <Item>
                     <img className="px-20" src="gif/Semina.gif"/>
                     <ItemText>
-                        <span>🎙️  발표 및 세미나</span>
+                        <span className="font-bold">🎙️  발표 및 세미나</span>
                         <ItemDetail>개인 혹은 팀으로 진행한 프로젝트, 개인이 공부한 주제를 선정해 학회원들을 대상으로 학기 중에 발표합니다.</ItemDetail>
                     </ItemText>
                 </Item>
                 <Item>
                     <img className="px-20" src="gif/MT.gif"/>
                     <ItemText>
-                        <span>🥩  즐거운 MT</span>
+                        <span className="font-bold">🥩  즐거운 MT</span>
                         <ItemDetail>학회원들과 MT를 진행하고, 친목을 다집니다.</ItemDetail>
                     </ItemText>
                 </Item>
@@ -58,12 +62,13 @@ export default function MainaAtivity() {
                     </div>
                     
                     <ItemText className="sm:w-3/4 w-full">
-                        <span>💻  (new!) GDSC X TAB 연합 해커톤</span>
+                        <span className="font-bold">💻  (new!) GDSC X TAB 연합 해커톤</span>
                         <ItemDetail>GDSC와 함께 한국외국어대학교 Summer Hackathon 을 기획 및 운영합니다.</ItemDetail>
                     </ItemText>
                 </Item>
             </div>
-            <div className="hover:underline hover:cursor-pointer mt-10">📌  자세한 전년도 학회 활동내용이 궁금하다면? &#40;클릭&#41;</div>
+            <div className="hover:underline hover:cursor-pointer mt-10 text-xs sm:text-base"><Link to="/program">
+               📌  자세한 전년도 학회 활동내용이 궁금하다면? &#40;클릭&#41; </Link></div>
         </div>
     )
 }

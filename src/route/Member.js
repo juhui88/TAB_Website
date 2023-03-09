@@ -12,7 +12,7 @@ export default function Member() {
     <div>
       <Header />
       <div className="mx-auto  w-full lg:w-[1024px] p-7">
-        <span className="text-3xl font-extrabold">TAB 학회원을 소개합니다</span>
+        <span className="text-2xl sm:text-3xl font-extrabold">TAB 학회원을 소개합니다</span>
 
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-7 pb-40 mt-12">
           {data.map((i) => (

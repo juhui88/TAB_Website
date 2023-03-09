@@ -1,9 +1,9 @@
 export default function Achievement() {
   return (
     <div>
-      <span className="text-3xl font-extrabold">이루어온 것들✨</span>
-      <div className="bg-[#F3F3F3] p-10 sm:px-20 mt-10 rounded-3xl">
-        <ul className="list-disc font-bold">
+      <span className="text-xl sm:text-2xl font-extrabold">이루어온 것들✨</span>
+      <div className="bg-[#F3F3F3] p-6 sm:p-10 sm:px-20 mt-10 rounded-3xl">
+        <ul className="list-disc font-bold text-xs sm:text-base">
           <li>너디너리 제 2회 해커톤 1등 수상</li>
           <li>2022 고려대학교 해커톤 2등(쿼드마이너상) 수상</li>
           <li>
@@ -17,7 +17,7 @@ export default function Achievement() {
           <li>2022 메타버스 개발자 경진대회 3차 본선 합격</li>
           <li>BlitzLabs X2E Ideathon 결선 진출</li>
           <li>HUFS H-UP 최우수상</li>
-          <li>튜터링 프로그램 우수팀 선정정</li>
+          <li>튜터링 프로그램 우수팀 선정</li>
           <li>UMC 앱 런칭 프로젝트 우수상</li>
           <li>ICPC 본선 진출</li>
           <li>OIDC 오픈 인프라 경진대회 본선 진출</li>

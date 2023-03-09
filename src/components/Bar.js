@@ -23,14 +23,15 @@ export default function Bar() {
                 </div>
                 
             </div>
-            <div className="bg-white flex justify-center space-x-24 sm:space-x-32 h-16 text-lg font-extrabold items-center">
+            <div className="bg-white flex justify-center space-x-24 sm:space-x-32 h-16 text-md sm:text-lg font-extrabold items-center">
                 <div className="pr-2">
                     <Link to = "/program"  className={pathname==="/program" ? "text-[#865DFF] " : "hover:text-[#865DFF]"}>
+
                     프로그램  
                     </Link>
                     
                 </div>
-                <div className="pr-7 sm:pr-10">
+                <div className="pr-5 sm:pr-10">
                     <Link to ="/" className={pathname==="/" ? "text-[#865DFF] " : "hover:text-[#865DFF]"}>
                         TAB
                     </Link>

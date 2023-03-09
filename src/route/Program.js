@@ -9,7 +9,7 @@ export default function Program() {
     <div>
       <Header/>
       <div className="mx-auto  w-full lg:w-[1024px] p-7">
-        <span className="text-3xl font-extrabold">
+        <span className="text-2xl tsm:text-3xl font-extrabold">
           지난 TAB의 활동들, 함께 보실까요?
         </span>
         <div className="py-10 text-center text- mb-10">

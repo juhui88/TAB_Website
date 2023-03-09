@@ -17,12 +17,12 @@ export default function MemberItem({
         </div>
         <div className="p-3 rounded-b-3xl">
           <div>
-            <span>
+            <span className="text-sm sm:text-base">
               🧑‍💻{name}&#40;{generation},{year}&#41;
             </span>
           </div>
-          <div className="text-sm">{nickname}</div>
-          <div className="text-sm">Github : {github}</div>
+          <div className="text-xs sm:text-sm">{nickname}</div>
+          <div className="text-xs sm:text-sm">Github : {github}</div>
         </div>
       </div>
     </Link>
