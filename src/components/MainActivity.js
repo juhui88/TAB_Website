@@ -53,7 +53,7 @@ export default function MainaAtivity() {
                     </ItemText>
                 </Item>
                 <Item className="col-start-1 col-end-3 items-center">
-                    <div className="w-2/3 sm:w-1/3 md:w-2/5 lg:w-80 lg:h-80">
+                    <div className="px-20 sm:w-3/5 w-full">
                         <img className=" text-center" src="gif/Hackathon.gif"/>
                     </div>
                     
