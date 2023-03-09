@@ -12,14 +12,14 @@ text-gray-600
 function FAQ() {
   return (
     <div>
-      <p className="text-2xl font-extrabold">자주 묻는 질문</p>
-      <p className="text-base font-normal mt-3">
+      <p className="text-xl sm:text-2xl font-extrabold">자주 묻는 질문</p>
+      <p className="text-xs sm:text-base font-normal mt-3">
         궁금하신 점이 있다면 아래의 연락처 혹은 오픈카톡으로 문의내용 남겨주시면
         답변해드리겠습니다.<br/><br/>
-        <Link href="https://open.kakao.com/o/gGMDYa8e" className="hover:text-yellow-400">https://open.kakao.com/o/gGMDYa8e</Link><br/>
+        <Link to="https://open.kakao.com/o/gGMDYa8e" className="hover:text-yellow-400">https://open.kakao.com/o/gGMDYa8e</Link><br/>
         회장 김이안 010 - 3158 - 0553
       </p>
-      <div className="mt-10 space-y-5">
+      <div className="mt-10 space-y-5 text-xs sm:text-base">
         <details>
           <summary> 컴퓨터공학부, 이중전공생 혹은 서울캠퍼스 재학생도 지원이 가능한가요?</summary>
           <P> 아쉽지만 지원자격은 컴퓨터공학부 23학번 신입생한테만 주어지므로 이중 및 부전공, 2학년 이상 재학생, 서울캠퍼스 학생은 지원하실 수 없습니다.  </P>

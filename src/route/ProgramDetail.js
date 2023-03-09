@@ -28,10 +28,9 @@ export default function ProgramDetail() {
     return(
         <div>
             <Header/>
-
             <div className="mx-auto  w-full lg:w-[1024px] p-7 ">
                 <span className="text-3xl font-extrabold">{data.title}</span>
-                <img src ={data.imgSrc[0]} className="rounded-3xl w-full my-5"/>
+                <img src ="/TAB_logo_textWhite-bgX.png" className="rounded-3xl w-full my-5"/>
                 <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5">{data.intro}</div>
                 <div className=" space-y-10">
                     <Item className="flex flex-col">

@@ -11,7 +11,7 @@ import styled from "styled-components";
 function TabPhoto() {
   return (
     <div>
-      <span className="text-2xl font-extrabold">TAB 사진첩 📷</span>
+      <span className="text-xl sm:text-2xl font-extrabold">TAB 사진첩 📷</span>
       <Swiper
         className="mt-5 rounded-3xl bg-[#F3F3F3]"
         modules={[Navigation]}
@@ -35,7 +35,7 @@ function TabPhoto() {
         </SwiperSlide>
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	 p-5 mt-5">
-        <span className="ml-3">
+        <span className="sm:ml-3 text-xs sm:text-base">
           📌 TAB 학회원들과 잊지 못할 특별한 추억을 만들어가요!
         </span>
       </div>
