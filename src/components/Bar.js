@@ -5,6 +5,12 @@ export default function Bar() {
     const onClick = () => {
         alert("지원 기간이 아닙니다!")
     }
+
+    const scrollToTop = () => {
+        window.scrollTo({top:0, behavior:"smooth"})
+    }
+        
+    
     return(
     <div className="">
         <div className="bg-[#D9D9D9] pt-3 items-center pb-32">
@@ -24,19 +30,19 @@ export default function Bar() {
                 
             </div>
             <div className="bg-white flex justify-center space-x-24 sm:space-x-32 h-16 text-md sm:text-lg font-extrabold items-center">
-                <div className="pr-2">
+                <div className="pr-2"  onClick={scrollToTop}>
                     <Link to = "/program"  className={pathname==="/program" ? "text-[#865DFF] " : "hover:text-[#865DFF]"}>
 
                     프로그램  
                     </Link>
                     
                 </div>
-                <div className="pr-5 sm:pr-10">
+                <div className="pr-5 sm:pr-10" onClick={scrollToTop}>
                     <Link to ="/" className={pathname==="/" ? "text-[#865DFF] " : "hover:text-[#865DFF]"}>
                         TAB
                     </Link>
                 </div>
-                <div>
+                <div onClick={scrollToTop}>
                     <Link to ="/member"  className={pathname==="/member" ? "text-[#865DFF] " : "hover:text-[#865DFF]"}>
                         멤버
                     </Link>
