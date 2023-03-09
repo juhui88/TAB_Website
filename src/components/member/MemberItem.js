@@ -18,7 +18,7 @@ export default function MemberItem({
         <div className="p-3 rounded-b-3xl">
           <div>
             <span className="text-sm sm:text-base">
-              🧑‍💻{name}&#40;{generation},{year}&#41;
+              🧑‍💻{name}<br className="sm:hidden"/>&#40;{generation},{year}&#41;
             </span>
           </div>
           <div className="text-xs sm:text-sm">{nickname}</div>
