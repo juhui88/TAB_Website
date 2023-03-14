@@ -81,7 +81,7 @@ export default function TabRecruit() {
       <div className="grid bg-[#F3F3F3] rounded-3xl p-3 text-xs sm:text-base">
         <span className="mb-3">📌 TAB은 어떤 곳인가요?</span>
         <span className="ml-5 sm:ml-7">
-          TAB은 키보드의 Tab키와 'Talk About Bug'의 약자로 '프로그래밍 개발 지식
+          TAB은 키보드의 Tab키와 'Teamwork, Ambition, Brilliance'의 약자로 '프로그래밍 개발 지식
           공유'라는 의미를 두고 있는 1982년에 설립된 컴퓨터공학부 소속
           학회입니다. <br />
           함께 프로그래밍 지식에 대한 대화를 나누고, 자신이 관심있는 분야를 함께
