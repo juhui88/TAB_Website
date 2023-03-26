@@ -41,9 +41,7 @@ const TriangleRight = styled.div`
 export default function TabRecruit() {
   return (
     <div className="overflow-hidden">
-      <div className="pb-7">
-        <span className="text-2xl sm:text-3xl font-extrabold">TAB 41기 신입부원 모집!</span>
-      </div>
+      
 
       <ul className="md:w-3/4">
         <Bubble>
