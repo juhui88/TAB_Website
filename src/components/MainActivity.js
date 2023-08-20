@@ -27,7 +27,7 @@ export default function MainaAtivity() {
             <span className="text-xl sm:text-2xl font-extrabold">TAB 주요 활동</span>
             <div className="sm:grid sm:grid-cols-2 justify-items-center space-y-20 sm:space-y-0 sm:gap-10 ">
                 <Item className="flex flex-col">
-                    <img className="px-20"  src="gif/Study.gif"/>
+                    <img className=" object-contain px-20"  src="gif/Study.gif"/>
                     <ItemText>
                         <span className="font-bold">✏️ 학회원들과 스터디</span>
                         <ItemDetail >학회원들끼리 관심있는 주제로 함께 공부하거나 프로젝트를 진행합니다.<br/>
@@ -36,21 +36,21 @@ export default function MainaAtivity() {
                     </ItemText>
                 </Item>
                 <Item className="flex flex-col">
-                    <img className="px-20" src="gif/Beer.gif"/>
+                    <img className=" object-contain px-20" src="gif/Beer.gif"/>
                     <ItemText>
                         <span className="font-bold">👥 올림픽공원 야유회</span>
                         <ItemDetail>서울 올림픽 공원에서 졸업한 학회 선배님들과 함께 네트워킹 할 수 있는 야유회를 개최합니다.</ItemDetail>
                     </ItemText>
                 </Item>
                 <Item>
-                    <img className="px-20" src="gif/Semina.gif"/>
+                    <img className=" object-contain px-20" src="gif/Semina.gif"/>
                     <ItemText>
                         <span className="font-bold">🎙️  발표 및 세미나</span>
                         <ItemDetail>개인 혹은 팀으로 진행한 프로젝트, 개인이 공부한 주제를 선정해 학회원들을 대상으로 학기 중에 발표합니다.</ItemDetail>
                     </ItemText>
                 </Item>
                 <Item>
-                    <img className="px-20" src="gif/MT.gif"/>
+                    <img className=" object-contain px-20" src="gif/MT.gif"/>
                     <ItemText>
                         <span className="font-bold">🥩  즐거운 MT</span>
                         <ItemDetail>학회원들과 MT를 진행하고, 친목을 다집니다.</ItemDetail>
@@ -58,7 +58,7 @@ export default function MainaAtivity() {
                 </Item>
                 <Item className="col-start-1 col-end-3 items-center">
                     <div className="px-20 sm:w-3/5 w-full">
-                        <img className=" text-center" src="gif/Hackathon.gif"/>
+                        <img className=" object-contain  text-center" src="gif/Hackathon.gif"/>
                     </div>
                     
                     <ItemText className="sm:w-3/4 w-full">

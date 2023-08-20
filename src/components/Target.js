@@ -25,8 +25,8 @@ function Target() {
         </span>
       </div>
       <span className=" text-xs sm:text-base sm:ml-10">
-        실력이 없더라도 같이 배워나가면 됩니다 🙂 <br/>위에 하나라도 해당된다면
-        망설이지 말고 지원하세요!{" "}
+        실력이 없더라도 같이 배워나가면 됩니다 🙂 <br className="sm:hidden"/>위에 하나라도 해당된다면
+        망설이지 말고 지원하세요!
       </span>
     </div>
   );

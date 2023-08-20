@@ -29,10 +29,10 @@ export default function ProgramDetail() {
         <div>
             <Header/>
             <div className="mx-auto  w-full lg:w-[1024px] p-7 ">
-                <span className="text-3xl font-extrabold">{data.title}</span>
-                <img src ="/TAB_logo_textWhite-bgX.png" className="rounded-3xl w-full my-5"/>
-                <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5">{data.intro}</div>
-                <div className=" space-y-10">
+                <span className="text-2xl sm:text-3xl font-extrabold">{data.title}</span>
+                <img src ={data.imgSrc[0]} className="rounded-3xl w-full my-5"/>
+                <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5 text-xs sm:text-base">{data.intro}</div>
+                <div className=" space-y-10 text-xs sm:text-base">
                     <Item className="flex flex-col">
                         <ItemTitle>🚩 목표</ItemTitle>
                         <ItemDetail >{data.goal}</ItemDetail>

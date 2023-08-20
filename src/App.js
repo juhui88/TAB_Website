@@ -5,6 +5,7 @@ import Home from './Home';
 import Member from "./route/Member";
 import Program from "./route/Program";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <title>TAB</title>
         </Helmet>
       <BrowserRouter>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/program" element={<Program/>}/>
