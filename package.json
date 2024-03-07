@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "daisyui": "^4.7.2",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwind-styled-components": "^2.2.0",

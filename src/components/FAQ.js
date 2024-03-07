@@ -15,22 +15,22 @@ function FAQ() {
       <p className="text-xl sm:text-2xl font-extrabold">자주 묻는 질문</p>
       <p className="text-xs sm:text-base font-normal mt-3">
         궁금하신 점이 있다면 아래의 연락처 혹은 오픈카톡으로 문의내용 남겨주시면
-        답변해드리겠습니다.<br/><br/>
+        답변해드리겠습니다.<br /><br />
         <Link to="https://open.kakao.com/o/gGMDYa8e" className=" hover:text-white hover:bg-yellow-400 text-yellow-400 p-2 rounded-3xl border-2 border-yellow-400">오픈채팅으로 문의</Link>
-        <p className="mt-5">회장 김이안 010 - 3158 - 0553</p>
+        <p className="mt-5">회장 장예령 010-4412-6348</p>
       </p>
       <div className="mt-10 space-y-5 text-xs sm:text-base">
         <details>
           <summary> 컴퓨터공학부, 이중전공생 혹은 서울캠퍼스 재학생도 지원이 가능한가요?</summary>
-          <P> 아쉽지만 지원자격은 컴퓨터공학부 23학번 신입생 및 편입생에게만 주어지므로 이중 및 부전공, 2학년 이상 재학생, 서울캠퍼스 학생은 지원하실 수 없습니다.  </P>
+          <P> 아쉽지만 지원 자격은 컴퓨터 공학부 24학번 신입생, 편입생 그리고 자전생에게만 주어지므로 이중 및 부전공, 2학년 이상 재학생, 서울캠퍼스 학생은 지원하실 수 없습니다. </P>
         </details>
         <details>
           <summary>
             개발에 대해 막연한 관심은 있으나,개발에 대한 실질적인 지식은 없는데
             들어갈 수 있나요?
           </summary>
-          <P> 
-            다양한 주제의 세미나가 열려 공부할 기회와 환경이 지속적으로 주어지기 때문에 처음부터 컴퓨터를 잘 하실 필요는 없습니다! <br/>전공 공부와 더불어 꾸준히 학회활동에 참여할 열정만 있다면 누구든지 환영합니다.🤲</P>
+          <P>
+            다양한 주제의 세미나가 열려 공부할 기회와 환경이 지속적으로 주어지기 때문에 처음부터 컴퓨터를 잘 하실 필요는 없습니다! <br />전공 공부와 더불어 꾸준히 학회활동에 참여할 열정만 있다면 누구든지 환영합니다.🤲</P>
         </details>
         <details>
           <summary> 지원했는데 연락이 안와요. </summary>
