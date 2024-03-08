@@ -1,9 +1,10 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export default function Bar() {
     const { pathname } = useLocation();
+    const navigate = useNavigate()
     const onClick = () => {
-        alert("지원 기간이 아닙니다!")
+
     }
 
     const scrollToTop = () => {
@@ -24,9 +25,9 @@ export default function Bar() {
 
             <div className="fixed bottom-0 w-full space-y-2  sm:space-y-4 z-10">
                 <div className="cursor-pointer flex justify-center">
-                    <div className=" btn border-none bg-[#865DFF] py-3 rounded-2xl text-center hover:bg-white group w-4/5 lg:w-[1024px] shadow-xl " onClick={onClick}>
+                    <Link to="https://forms.gle/FrmGVJqcHpxSpAwH6" className=" btn border-none bg-[#865DFF] py-3 rounded-2xl text-center hover:bg-white group w-4/5 lg:w-[1024px] shadow-xl " onClick={onClick}>
                         <span className=" text-white font-bold group-hover:text-[#865DFF]">지원하러 가기!</span>
-                    </div>
+                    </Link>
 
                 </div>
                 <div className="bg-white flex justify-center space-x-24 sm:space-x-32 h-16 text-md sm:text-lg font-extrabold items-center">

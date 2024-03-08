@@ -16,7 +16,7 @@ function FAQ() {
       <p className="text-xs sm:text-base font-normal mt-3">
         궁금하신 점이 있다면 아래의 연락처 혹은 오픈카톡으로 문의내용 남겨주시면
         답변해드리겠습니다.<br /><br />
-        <Link to="https://open.kakao.com/o/gGMDYa8e" className=" hover:text-white hover:bg-yellow-400 text-yellow-400 p-2 rounded-3xl border-2 border-yellow-400">오픈채팅으로 문의</Link>
+        <Link to="https://open.kakao.com/o/sjRaN8dg" className=" hover:text-white hover:bg-yellow-400 text-yellow-400 p-2 rounded-3xl border-2 border-yellow-400">오픈채팅으로 문의</Link>
         <p className="mt-5">회장 장예령 010-4412-6348</p>
       </p>
       <div className="mt-10 space-y-5 text-xs sm:text-base">
