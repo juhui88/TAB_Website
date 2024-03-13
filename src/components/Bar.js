@@ -18,7 +18,7 @@ export default function Bar() {
                 <div className="font-bold pb-3 flex justify-center">
                     DEVELOPED BY Dawon SEO, JUHUI CHO<br />
                     DESIGNED BY Dawon SEO<br />
-                    PROGRAMMED BY REACT FRAMEWORK
+                    PROGRAMMED BY REACT LIBRARY
                 </div>
 
             </div>
