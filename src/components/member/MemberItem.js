@@ -13,12 +13,12 @@ export default function MemberItem({
     <Link to={`https://github.com/${github}`}>
       <div className="shadow-xl rounded-b-3xl">
         <div>
-          <img src={image} className="rounded-t-3xl" />
+          <img alt="memberImg" src={image} className="rounded-t-3xl" />
         </div>
         <div className="p-3 rounded-b-3xl">
           <div>
             <span className="text-sm sm:text-base">
-              🧑‍💻{name}<br className="sm:hidden"/>&#40;{generation},{year}&#41;
+              🧑‍💻{name}<br className="sm:hidden" />&#40;{generation},{year}&#41;
             </span>
           </div>
           <div className="text-xs sm:text-sm">{nickname}</div>

@@ -4,11 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
-import tw from "tailwind-styled-components";
-import styled from "styled-components";
-
-
 function TabPhoto() {
   return (
     <div>
@@ -23,21 +18,9 @@ function TabPhoto() {
       >
         {Array(16).fill(0).map((item, i) => (
           <SwiperSlide>
-            <img className="h-96 object-contain" src={`TabAlbum/${i}.jpg`}></img>
+            <img alt={`TabAlbum_${i}`} className="h-96 object-contain" src={`TabAlbum/${i}.jpg`}></img>
           </SwiperSlide>
         ))}
-        {/* <SwiperSlide>
-          <img className="h-96 object-contain" src="TabAlbum/0.jpg"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="h-96 object-contain" src="TabAlbum/1.jpg"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="h-96 object-contain" src="TabAlbum/2.jpg"></img>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="h-96 object-contain" src="TabAlbum/3.jpg"></img>
-        </SwiperSlide> */}
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	 p-5 mt-5">
         <span className="sm:ml-3 text-xs sm:text-base">

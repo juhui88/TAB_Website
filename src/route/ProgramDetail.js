@@ -34,7 +34,7 @@ export default function ProgramDetail() {
         <span className="text-2xl sm:text-3xl font-extrabold ">
           {data.title}
         </span>
-        <img src={data.imgSrc[0]} className="rounded-3xl w-full my-5" />
+        <img alt="mainImg" src={data.imgSrc[0]} className="rounded-3xl w-full my-5" />
         <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5 text-xs sm:text-base">
           {data.intro}
         </div>
@@ -80,7 +80,7 @@ export default function ProgramDetail() {
             >
               {data.imgSrc.map((i) => (
                 <SwiperSlide>
-                  <img src={i} className="h-96 object-contain" />
+                  <img alt={`programImg_${i}`} src={i} className="h-96 object-contain" />
                 </SwiperSlide>
               ))}
             </Swiper>

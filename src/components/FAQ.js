@@ -1,6 +1,5 @@
 import tw from "tailwind-styled-components";
-import styled from "styled-components";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 const P = tw.p`

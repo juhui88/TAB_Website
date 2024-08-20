@@ -11,14 +11,14 @@ const ItemTitle = tw.span`
     font-bold
 `
 export default function WithTab() {
-    return(<div className="">
+    return (<div className="">
         <span className="text-xl sm:text-2xl font-extrabold">
             TAB과 함께
         </span>
         <div className="flex justify-center">
-            <img src="TAB_logo_textBlack.png"></img>
+            <img alt="Tab_logo_textBlack" src="TAB_logo_textBlack.png"></img>
         </div>
-        
+
         <div className="mt-4 space-y-6">
             <Item>
                 <ItemTitle>공부하고 성장해요</ItemTitle>

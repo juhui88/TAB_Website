@@ -1,8 +1,7 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Bar() {
     const { pathname } = useLocation();
-    const navigate = useNavigate()
     const onClick = () => {
 
     }

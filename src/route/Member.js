@@ -7,7 +7,6 @@ import data from "../api/TAB_member_information.json"
 
 
 export default function Member() {
-  console.log(data)
   return (
     <div>
       <Header />
@@ -16,8 +15,8 @@ export default function Member() {
 
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-7 pb-40 mt-12">
           {data.map((i) => (
-            <MemberItem 
-            image={`https://github.com/${i.githubId}.png`} name={i.name}   generation = {i.tab} year = {i.studentId} nickname = {i.keword} github = {i.githubId}
+            <MemberItem
+              image={`https://github.com/${i.githubId}.png`} name={i.name} generation={i.tab} year={i.studentId} nickname={i.keword} github={i.githubId}
             />
           ))}
         </div>

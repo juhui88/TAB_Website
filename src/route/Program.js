@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import data_2022 from "../api/2022TAB_semina.json";
 import Bar from "../components/Bar";
 import Header from "../components/Header";

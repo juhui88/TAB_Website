@@ -5,9 +5,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 
-import tw from "tailwind-styled-components";
-import styled from "styled-components";
-
 function ClubRoom() {
   return (
     <div>
@@ -21,17 +18,17 @@ function ClubRoom() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <img className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_불빛.gif"></img>
-          
+          <img alt="불빛" className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_불빛.gif"></img>
+
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl object-contain h-96" src="ClubRoom/room2.jpg"></img>
+          <img alt="room2" className="rounded-3xl object-contain h-96" src="ClubRoom/room2.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_문패.jpg"></img>
+          <img alt="문패" className="rounded-3xl object-contain h-96" src="ClubRoom/TAB_문패.jpg"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="rounded-3xl object-contain h-96" src="ClubRoom/학회방.jpg"></img>
+          <img alt="학회방" className="rounded-3xl object-contain h-96" src="ClubRoom/학회방.jpg"></img>
         </SwiperSlide>
       </Swiper>
       <div className="grid bg-[#F3F3F3] rounded-3xl	text-xs sm:text-base p-5 mt-5">
@@ -39,8 +36,8 @@ function ClubRoom() {
           📌 TAB 학회원을 위한 전용 학회방은 한국외국어대학교 글로벌캠퍼스
           공학관 106호에 위치합니다. <br />
           <span className="sm:ml-7">학회원들이 공강시간에 자유롭게 공부할 수
-          있고 휴식할 수 있는 공간이에요!
-            </span>
+            있고 휴식할 수 있는 공간이에요!
+          </span>
         </span>
       </div>
     </div>
