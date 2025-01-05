@@ -56,10 +56,26 @@ www.hufs-tab.com
 ### 프로그램(/program)
 > 매년 진행된 프로그램의 정보를 보여주는 페이지
 - src/route/Program.js에 가면 확인 가능
+- 상단에 data_year 이런식으로 매년 정보 json 파일을 import 해와야함
 - 매년 정보를 추가할 경우 return 내에 아래 코드를 수정해주어야 함
 ```javascript
+  function getData(year) { // 여기서 2024 추가 
+    switch (year) {
+      case 2022:
+        return data_2022;
+      case 2023:
+        return data_2023;
+      default:
+        setYear(2022);
+        return data_2022;
+    }
+  }
+  const data = getData(year);
+
+...
+
         <div className="flex  w-24">
-          {[2022, 2023].map((i) => ( // 여기에 2024 추가하는 식
+          {[2022, 2023].map((i) => ( // 여기에 2024 추가
             <div
               onClick={() => onClick(i)}
               className="cursor-pointer rounded-full text-lg p-2  font-bold hover:text-xl transition-all pb-3"
