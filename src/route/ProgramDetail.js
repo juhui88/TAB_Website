@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Navigation } from "swiper";
 import data_2022 from "../api/2022TAB_semina.json";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import Header from "../components/Header";
 import data_2023 from "../api/2023TAB_semina.json";
 
@@ -24,9 +24,9 @@ const ItemDetail = tw.span`
     ml-5
 `;
 export default function ProgramDetail() {
-  const { programId } = useParams();
-  const data =
-    programId >= 20 ? data_2023[Number(programId) - 20] : data_2022[programId];
+  const data = useLocation().state;
+  console.log(data);
+
   return (
     <div>
       <Header />
@@ -34,7 +34,11 @@ export default function ProgramDetail() {
         <span className="text-2xl sm:text-3xl font-extrabold ">
           {data.title}
         </span>
-        <img alt="mainImg" src={data.imgSrc[0]} className="rounded-3xl w-full my-5" />
+        <img
+          alt="mainImg"
+          src={data.imgSrc[0]}
+          className="rounded-3xl w-full my-5"
+        />
         <div className="bg-[#F3F3F3] p-5 rounded-3xl mb-5 text-xs sm:text-base">
           {data.intro}
         </div>
@@ -42,16 +46,6 @@ export default function ProgramDetail() {
           <Item className="flex flex-col">
             <ItemTitle>🚩 목표</ItemTitle>
             <ItemDetail>{data.goal}</ItemDetail>
-            {Number(programId) - 20 === 0 ? (
-              <div className="pl-5">
-                <Link
-                  className="text-blue-400 hover:font-bold"
-                  to="https://ian-react-project-emotiondiary.web.app/"
-                >
-                  감성 일기장 구경하러 가기
-                </Link>
-              </div>
-            ) : null}
           </Item>
           <Item>
             <ItemTitle>🗓️ 활동기간</ItemTitle>
@@ -80,7 +74,11 @@ export default function ProgramDetail() {
             >
               {data.imgSrc.map((i) => (
                 <SwiperSlide>
-                  <img alt={`programImg_${i}`} src={i} className="h-96 object-contain" />
+                  <img
+                    alt={`programImg_${i}`}
+                    src={i}
+                    className="h-96 object-contain"
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>

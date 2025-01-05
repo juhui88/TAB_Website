@@ -7,8 +7,19 @@ import data_2023 from "../api/2023TAB_semina.json";
 import { useState } from "react";
 
 export default function Program() {
-  const [year, setYear] = useState(2023);
-  const data = year === 2023 ? data_2023 : data_2022;
+  const [year, setYear] = useState(2024);
+  function getData(year) {
+    switch (year) {
+      case 2022:
+        return data_2022;
+      case 2023:
+        return data_2023;
+      default:
+        setYear(2022);
+        return data_2022;
+    }
+  }
+  const data = getData(year);
   const onClick = (i) => {
     setYear(i);
   };
@@ -37,8 +48,8 @@ export default function Program() {
           ))}
         </div>
         <div className="grid sm:grid-cols-2 gap-12 pb-40">
-          {data.map((d, i) => (
-            <Link to={year === 2023 ? `${i + 20}` : `${i}`}>
+          {data.programs.map((d, i) => (
+            <Link to={`${data.year}/${i}`} state={data.programs[i]}>
               <ProgramItem imgSrc={d.imgSrc[0]} title={d.title} />
             </Link>
           ))}

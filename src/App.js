@@ -1,12 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ProgramDetail from "./route/ProgramDetail";
-import Home from './Home';
+import Home from "./Home";
 import Member from "./route/Member";
 import Program from "./route/Program";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import ScrollToTop from "./components/ScrollToTop";
-
 
 function App() {
   return (
@@ -15,17 +14,19 @@ function App() {
         <Helmet>
           <title>TAB</title>
         </Helmet>
-      <BrowserRouter>
-      <ScrollToTop/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/program" element={<Program/>}/>
-        <Route path="/member" element={<Member/>}/>
-        <Route path="/program/:programId" element={<ProgramDetail/>}/>
-      </Routes>
-      </BrowserRouter>  
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/program" element={<Program />} />
+            <Route path="/member" element={<Member />} />
+            <Route
+              path="/program/:year/:programId"
+              element={<ProgramDetail />}
+            />
+          </Routes>
+        </BrowserRouter>
       </HelmetProvider>
-      
     </div>
   );
 }
